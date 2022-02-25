@@ -1,11 +1,11 @@
-import Head from "next/head"
-import Image from "next/image"
+import Head from 'next/head'
+import Image from 'next/image'
 
 type Props = {
   title: string
 }
 
-export default function Home({ title = "React Avançado!" }: Props) {
+export default function Home({ title = 'React Avançado!' }: Props) {
   return (
     <div className="container">
       <Head>
@@ -58,7 +58,7 @@ export default function Home({ title = "React Avançado!" }: Props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{' '}
           <span className="logo">
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
