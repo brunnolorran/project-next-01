@@ -1,5 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
+import Head from "next/head"
+import Image from "next/image"
+
+type Props = {
+  title: string
+}
 
 export default function Home({ title = "React Avançado!" }: Props) {
   return (
@@ -61,5 +65,5 @@ export default function Home({ title = "React Avançado!" }: Props) {
         </a>
       </footer>
     </div>
-  );
+  )
 }
